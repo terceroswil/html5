@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+@ font-face{
+	font-family: "chalet";
+	src: url("../fonts/Chalet.eot");
+	src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentype"),
+			url("../fonts/chalet.woff") format("woff"),
+			url("../fonts/chalet.ttf") format("truetype"),
+			url("../fonts/chalet.svg#chalet") format("svg");
+	font-weight: normal;
+	font-style: normal; 
+	}
+
+body {
+	color:#0F0;
+	background:url(../img/fondo.jpg);
+	font-family:"chalet", Helvetica, Verdana;
+		}
+H1{
+	margin:0.25 auto;
+	text-align:center;
+	color:#F90;
+	text-shadow: 5px 5px 10px  rgba(255,255,255,0.5);
+	}
+header , nav, footer {
+	background:#06C;
+	border-radius:0.5em;
+	margin:0.5em auto;
+	max-width: 960px;
+	padding:0.25em;
+	text-align:center;
+	}
+section#contenedor{
+	
+	margin:0.5em auto;
+	max-width: 960px;
+	padding:0;
+	text-align:center;
+	}
+section#principal, aside{
+	background:#1e6381;
+	border-radius:0.5em;
+	display:inline-block;
+	margin:0.25em auto;
+	max-width:960px;
+	min-height:200px;
+	padding:0.25em;
+	text-align:center;
+	vertical-align:top;
+	width: 65%;
+	}	
+	article {
+		background:#006;
+		border-radius:0.5em;
+		min-height:140px;
+		padding:0.25em;
+		}
+	aside{
+		width: 30%;
+		}
